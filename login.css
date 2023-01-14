@@ -1,0 +1,183 @@
+body {
+    background-image: linear-gradient(to right, #87A96B, #006A4E);
+    text-decoration: none;
+
+}
+header {
+    font-family: 'Inspiration';
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    color: aliceblue;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    border: 5px solid transparent;
+}
+.bienvenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-style: bold;
+
+}
+
+.nav-list {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-list li:hover {
+    color: #1cdae0;
+    transform: scale(1.1);
+    font-style: bold;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    text-decoration: none;
+}
+
+.icons i:hover {
+    color: #1cdae0;
+    transform: scale(1.1);
+}
+
+
+
+.form-content{
+    border-color:aliceblue;
+    padding: 40px 50px;
+    border-radius: 20px;
+   
+
+}
+
+.form-content h2{
+    color: #ACE1AF;
+    padding: 10px;
+}
+
+.form-main{
+    font-family: 'Covered By Your Grace', cursive;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url('/assets/oso.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 600px;
+    padding: 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 5px solid #87A96B;
+}
+.datos{
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.recuperar{
+    padding: 10px;
+}
+
+.recuperar a{
+    text-decoration: none;
+    color: #ACE1AF;
+}
+
+.btn{
+    width: 100px;
+}
+.crearCuenta{
+    padding: 5px;
+    color: blanchedalmond;
+}
+
+
+
+footer {
+    padding: 40px 0;
+}
+
+
+footer nav {
+    border: 5px solid transparent;
+    font-family: 'Covered By Your Grace', cursive;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    font-size: 18px;
+}
+
+footer nav div {
+    text-align: center;
+    align-items: center;
+}
+
+
+.foot1 {
+    text-decoration: none;
+    color: #2F4F4F;
+    font-style: bold;
+    font-size: 24px;
+
+}
+
+.foot2 {
+    text-decoration: none;
+    color: #2F4F4F;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.foot3 {
+    padding-top: 1em;
+
+}
+
+.redes {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.redes i:hover {
+    color: #1cdae0;
+    transform: scale(1.5);
+}
+
+.rights {
+    font-family: 'Covered By Your Grace', cursive;
+    margin-top: 2px;
+    text-align: center;
+    color: #006400;
+}
+
+.rights hr {
+    margin: 0 auto;
+    width: 40%;
+}
