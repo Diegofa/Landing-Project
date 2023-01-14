@@ -55,7 +55,6 @@ header {
     align-items: center;
     gap: 3em;
     text-decoration: none;
-
 }
 
 .icons i:hover {
@@ -65,7 +64,54 @@ header {
 
 
 
+.form-content{
+    border-color:aliceblue;
+    padding: 40px 50px;
+    border-radius: 20px;
+   
 
+}
+
+.form-content h2{
+    color: #ACE1AF;
+    padding: 10px;
+}
+
+.form-main{
+    font-family: 'Covered By Your Grace', cursive;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url('/assets/oso.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 600px;
+    padding: 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 5px solid #87A96B;
+}
+.datos{
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.recuperar{
+    padding: 10px;
+}
+
+.recuperar a{
+    text-decoration: none;
+    color: #ACE1AF;
+}
+
+.btn{
+    width: 100px;
+}
+.crearCuenta{
+    padding: 5px;
+    color: blanchedalmond;
+}
 
 
 
