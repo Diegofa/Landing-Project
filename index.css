@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(to right, #006400, #76FF7A);
+    background-image: linear-gradient(to right, #87A96B, #006A4E);
+    text-decoration: none;
 
 }
 
@@ -17,7 +18,7 @@ ul {
     padding: 0;
 }
 
-.container {
+.container1 {
     color: aliceblue;
     margin: 0 auto;
     max-width: 100%;
@@ -29,10 +30,6 @@ ul {
     padding: 20px;
     font-size: 20px;
     border: 5px solid transparent;
-    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url('https://acortar.link/2K6ZlQ');
-    background-size: cover;
-    background-position: center;
-
 }
 
 .bienvenido {
@@ -54,8 +51,9 @@ ul {
 }
 
 .nav-list li:hover {
-    color: #41a827;
-    transform: scale(1.4);
+    color: #1cdae0;
+    transform: scale(1.1);
+    font-style: bold;
 }
 
 .icons {
@@ -63,16 +61,20 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 3em;
+    text-decoration: none;
 
 }
 
 .icons i:hover {
-    color: #5F9EA0;
+    color: #1cdae0;
     transform: scale(1.1);
 }
 
 .jumbotron {
-    background-image: linear-gradient(to right, #138808, #ADFF2F);
+    border: 5px solid transparent;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url('/assets/oso.jpg');
+    background-size: cover;
+    background-position: center;
     font-family: 'Covered By Your Grace', cursive;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -157,7 +159,6 @@ ul {
 
 .blog {
     font-family: 'Inspiration';
-    background-image: linear-gradient(to right, #2d8146, #a82c94);
     color: #f0f0f5;
     padding: 100px 0;
 }
@@ -226,11 +227,12 @@ ul {
     gap: 10%;
     justify-content: center;
     color: #f0f0f5;
-    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url('https://onx.la/cc856');
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url('/assets/Jaguar.jpg');
     background-size: cover;
     background-position: center;
 }
 .tw{
+    font-family: 'Covered By Your Grace', cursive;
     object-fit: contain;
     margin: 0 auto;
     height: 70%;
@@ -290,7 +292,7 @@ footer nav div {
 }
 
 .redes i:hover {
-    color: #5F9EA0;
+    color: #1cdae0;
     transform: scale(1.5);
 }
 
